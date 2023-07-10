@@ -1,19 +1,78 @@
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-</head>
-<body>
-    <h1>BrainyDaily</h1>
-    <h2>¿Quienes Somos?</h2>
-    <a href="/">Inicio</a>
-    <a href="/about/">Sobre Nosotros</a>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odit
-        ex esse dolor odio veniam dolorum officia fuga asperiores tempora, nihil
-        libero dolore, maiores, debitis sed neque ipsum. Quo vero, nobis quasi
-        dolores aut consequuntur eos ratione modi non ullam!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure odit!
-        Id nesciunt tenetur saepe!
-    </p>
-</body>
+---
+// CSS Styles
+import "../styles/global.css";
+const pageTitle = "Sobre Nosotros";
+import Navigation from "../components/Navigation.astro";
+const autorUno = {
+    nombre: "Juan",
+    apellido: "Saurith",
+    apodo: "Juangui",
+    edad: 17,
+    trabajo: "Estudiante",
+    universidad: "UNAL",
+    hobbies: ["Programador", "Basketbolista", "Ajedrecista"],
+};
+
+const skillsAutorUno = ["HTML", "CSS", "JS", "React", "Angular", "Tailwind"];
+let felicidad = 30;
+const tristeza = false;
+let goles = 30;
+---
+
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Nosotros</title>
+    </head>
+    <body>
+        <h1>BrainyDaily</h1>
+        <h2>{pageTitle}</h2>
+        <ul>
+            <Navigation />
+        </ul>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            odit ex esse dolor odio veniam dolorum officia fuga asperiores
+            tempora, nihil libero dolore, maiores, debitis sed neque ipsum. Quo
+            vero, nobis quasi dolores aut consequuntur eos ratione modi non
+            ullam!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, iure
+            odit! Id nesciunt tenetur saepe!
+        </p>
+
+        <p>
+            Mi nombre es: {autorUno.nombre}
+            {autorUno.apellido}, aunque me suelen decir {autorUno.apodo}, tengo {
+                autorUno.edad
+            } y estoy estudiando en la {autorUno.universidad}. Tengo varios
+            Hobbies, dentro de ellos:
+        </p>
+        <ul>
+            <li>{autorUno.hobbies[0]}</li>
+            <li>{autorUno.hobbies[1]}</li>
+            <li>{autorUno.hobbies[2]}</li>
+        </ul>
+        <p>Dentro de mi stack, ahorita mismo manejo:</p>
+        <ul>
+            {skillsAutorUno.map((skillsAutorUno) => <li>{skillsAutorUno}</li>)}
+        </ul>
+        {
+            felicidad === 5 ? (
+                <p>En efecto, la felicidad tiene un nivel de 30</p>
+            ) : (
+                <p>La Felicidad no tiene un nivel de 30</p>
+            )
+        }
+        {tristeza && <p>Estoy Triste</p>}
+        {
+            goles == 3 ? (
+                <p>En efecto, se hicieron 3 goles</p>
+            ) : (
+                <p>Nada, no se hicieron 3 goles</p>
+            )
+        }
+    </body>
+</html>
