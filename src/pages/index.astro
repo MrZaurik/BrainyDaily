@@ -1,35 +1,43 @@
 ---
-import "../styles/global.css";
-import Navigation from "../components/Navigation.astro";
+import Icons from "../components/icons.astro";
 ---
 
 <html lang="en">
 	<head>
+		<!-- Icons -->
+		<script
+			src="https://kit.fontawesome.com/454910e8ef.js"
+			crossorigin="anonymous"></script>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="../../public/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>BrainyDaily</title>
+		<title>Brainy Daily 🧠</title>
 	</head>
 	<body>
-		<h1>BrainyDaily</h1>
-		<h2>¡Blog de divulgaciones en español!</h2>
-
-		<ul>
-			<Navigation />
-		</ul>
-
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam
-			architecto officiis, eveniet nihil earum neque molestias qui aperiam
-			est. Aut cumque inventore in dolorem dolores. Natus possimus maiores
-			nemo.
-		</p>
-
-		<p>
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-			adipisci.
-		</p>
+		<header>
+			<img src="../../public/img/image.png" alt="Logo Brainy Daily" />
+			<nav>
+				<ul>
+					<li><a href="/">Inicio</a></li>
+					<li><a href="#">Sobre Nosotros</a></li>
+					<li><a href="#">Artículos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div>
+			<h1>Brainy Daily</h1>
+			<p>
+				¡Bienvenidos a Brainy Daily, tu fuente diaria de conocimiento
+				científico! Explora nuestro fascinante mundo de descubrimientos
+				y curiosidades, donde desentrañamos los misterios del universo,
+				una visión desde las ciencias. ¡Acompáñanos en este viaje hacia
+				el saber y despierta tu mente cada día!
+			</p>
+			<img src="../../public/img/banner.png" alt="Banner BarinyDaily" />
+			<Icons />
+		</div>
 		<footer>Todos los Derechos Reservados</footer>
 	</body>
 </html>
