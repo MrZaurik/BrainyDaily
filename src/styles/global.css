@@ -5,7 +5,8 @@
 * {
     margin: 0 auto;
     padding: 1em;
-    box-sizing: border-box;
+    z-index: 10000;
+    box-sizing: content-box;
 }
 
 body {
@@ -20,4 +21,13 @@ body {
 h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
+}
+
+tr {
+    background-color: #333;
+    color: #FFF;
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 80ch;
+    line-height: 1.5;
 }
