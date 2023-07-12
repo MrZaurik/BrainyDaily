@@ -1,3 +1,7 @@
+a:hover {
+    color: red;
+}
+
 * {
     margin: 0 auto;
     padding: 1em;
