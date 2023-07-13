@@ -1,30 +1,9 @@
-
-* {
-    margin: 0 auto;
-    padding: 1em;
-    z-index: 10000;
-    box-sizing: content-box;
-}
-/*Este es mi body*/
-body {
+::-webkit-scrollbar {
     background-color: #333;
-    color: #FFF;
-    font-family: sans-serif;
-    width: 100%;
-    max-width: 80ch;
-    line-height: 1.5;
+    width: 10px;
 }
-
-h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-}
-
-tr {
-    background-color: #333;
-    color: #FFF;
-    font-family: sans-serif;
-    width: 100%;
-    max-width: 80ch;
-    line-height: 1.5;
+::-webkit-scrollbar-thumb {
+    background-color: #666;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
