@@ -1,6 +1,8 @@
 # Brainy Daily
 
-![Brainy Daily Logo](https://github.com/MrZaurik/BrainyDaily/blob/master/public/img/logo.png?raw=true)
+<p align="center">
+  <img src="https://github.com/MrZaurik/BrainyDaily/blob/master/public/img/logo.png?raw=true" />
+</p>
 
 🌐 Visit the website: [Brainy Daily](https://www.brainydaily.netlify.com)
 
