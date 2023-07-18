@@ -1,10 +1,10 @@
-# Brainy Daily
+<h1>Brainy Daily</h1>
 
 <p align="center">
-  <img src="https://github.com/MrZaurik/BrainyDaily/blob/master/public/img/logo.png?raw=true" />
+  <img src="https://github.com/MrZaurik/BrainyDaily/assets/139176477/67335ac1-6f8f-491e-92ce-a0a5b8846546"  width="400"/>
 </p>
 
-🌐 Visit the website: [Brainy Daily](https://www.brainydaily.netlify.com)
+<p align="center">🌐 Visit the website: <a href="https://brainydaily.netlify.app">Brainy Daily</a></p>
 
 ## About the Project
 
@@ -43,3 +43,5 @@ Through Brainy Daily, we strive to inspire curiosity, spark conversations, and i
 - 📱 Responsive design for optimal viewing on all devices.
 - ✉️ Contact us at [contact@brainydaily.netlify.com](mailto:juanguisam@gmail.com).
 
+<hr>
+<p align="center">Made with ❤️ by <a href="https://github.com/MrZaurik">@MrZaurik</a></p>
