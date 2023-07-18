@@ -1,47 +1,47 @@
-# Astro Starter Kit: Minimal
+<h1>Brainy Daily</h1>
 
-```
-npm create astro@latest -- --template minimal
-```
+<p align="center">
+  <img src="https://github.com/MrZaurik/BrainyDaily/assets/139176477/67335ac1-6f8f-491e-92ce-a0a5b8846546"  width="400"/>
+</p>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+<p align="center">🌐 Visit the website: <a href="https://brainydaily.netlify.app">Brainy Daily</a></p>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## About the Project
 
-## 🚀 Project Structure
+Brainy Daily aims to bridge the gap between science and the general public by providing accessible and engaging content. We believe that science is for everyone, and our mission is to make complex concepts easy to understand and exciting to explore.
 
-Inside of your Astro project, you'll see the following folders and files:
+🔬 **Why it matters:** 
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- 🌍 Science affects our daily lives, from healthcare to technology and the environment. Understanding scientific concepts empowers individuals to make informed decisions.
+- 🌱 Science literacy cultivates critical thinking, curiosity, and a sense of wonder about the world we live in.
+- 🤝 Science communication fosters collaboration and builds connections between researchers, educators, and the public.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Through Brainy Daily, we strive to inspire curiosity, spark conversations, and ignite a passion for lifelong learning. Join us on this journey of discovery and let's unlock the wonders of science together!
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Website Review
 
-Any static assets, like images, can be placed in the `public/` directory.
+- 🌟 Explore fascinating scientific discoveries and knowledge every day!
+- 💡 Unravel the mysteries of the universe, from astronomy to biology.
+- 📚 Dive into curated content that educates and entertains.
 
-## 🧞 Commands
+## Importance of Disclosure
 
-All commands are run from the root of the project, from a terminal:
+- 🔍 Disclosure fosters understanding and awareness.
+- 🧠 Empowers individuals with knowledge.
+- 🌍 Promotes scientific progress and innovation.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Programming Languages and Technologies Used
 
-## 👀 Want to learn more?
+- 🚀 Astro (Static Site Generator)
+- 💻 HTML + CSS (Markup and Styling)
+- 🎨 Tailwind CSS (Utility-First CSS Framework)
+- ⚙️ PostCSS (CSS Preprocessor)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Other Important Details
+
+- 📌 Regular updates with fresh content.
+- 📱 Responsive design for optimal viewing on all devices.
+- ✉️ Contact us at [contact@brainydaily.netlify.com](mailto:juanguisam@gmail.com).
+
+<hr>
+<p align="center">Made with ❤️ by <a href="https://github.com/MrZaurik">@MrZaurik</a></p>
